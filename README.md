@@ -28,8 +28,13 @@ Study at least 5 different parameters in the configuration and find a methodolog
 - RISC-V BOOM core
 - RISC-V Rocket core
 ## Evaluation Benchmarks (1-5)
-* Drystone.riscv 
-* Qsort.riscv
+* ~~Drystone.riscv~~
+* ~~Qsort.riscv~~
+* Linpack benchmark ➔ floating point
+* Livermore benchmark ➔ parallel computers
+* Whetstone benchmark ➔ floating point
+* High-performance Linpack (HPL) ➔ solves a (random) dense linear system in double precision (64 bits) arithmetic on distributed-memory computers
+* SparseBench ➔ machine performance on typical sparse operations
 * multiplication.riscv
 ## Location of Config Files 
 Rocket Config:
