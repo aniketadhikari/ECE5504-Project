@@ -36,7 +36,7 @@ Study at least 5 different parameters in the configuration and find a methodolog
 * High-performance Linpack (HPL) ➔ solves a (random) dense linear system in double precision (64 bits) arithmetic on distributed-memory computers
 * SparseBench ➔ machine performance on typical sparse operations
 * multiplication.riscv
-## Location of Config Files 
+## Location and Meaning of Config Files 
 Rocket Config:
 ```
 ~/rocket/chipyard-clean/generators/chipyard/src/main/scala/config/RocketConfigs.scala
