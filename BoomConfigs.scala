@@ -54,6 +54,8 @@ class DromajoBoomConfig extends Config(
   new boom.common.WithNSmallBooms(1) ++
   new chipyard.config.AbstractConfig)
 
+// branch prediction configs
+
 class ECE5504NoPredSmallBoomConfig extends Config(
   new boom.common.WithNBoomPerfCounters(11) ++
   new boom.common.WithNSmallBooms(1) ++                          // small boom config
@@ -81,4 +83,15 @@ class ECE5504AlphaPredSmallBoomConfig extends Config(
   new boom.common.WithAlpha21264BPD ++
   new boom.common.WithNBoomPerfCounters(11) ++
   new boom.common.WithNSmallBooms(1) ++                          // small boom config
+  new chipyard.config.AbstractConfig)
+
+// ---------------------
+// Aniket's BOOM Configs
+// ---------------------
+
+// medium boom config with SW branch predictor 
+  class AASWPredMediumBoomConfig extends Config(
+  new boom.common.WithSWBPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNMediumBooms(1) ++
   new chipyard.config.AbstractConfig)

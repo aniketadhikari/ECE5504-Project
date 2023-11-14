@@ -83,7 +83,7 @@ class WithRationalBoomTiles extends Config((site, here, up) => {
  * 1-wide BOOM.
  */
 class WithNSmallBooms(n: Int = 1, overrideIdOffset: Option[Int] = None) extends Config(
-  new WithTAGELBPD ++ // Default to TAGE-L BPD
+  // new WithTAGELBPD ++ // Default to TAGE-L BPD
   new Config((site, here, up) => {
     case TilesLocated(InSubsystem) => {
       val prev = up(TilesLocated(InSubsystem), site)
