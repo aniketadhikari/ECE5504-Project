@@ -26,10 +26,8 @@ Study at least 5 different parameters in the configuration and find a methodolog
 * Cache hit rate 
 ## Evaluation Platform
 - RISC-V BOOM core
-- RISC-V Rocket core
 ## Evaluation Benchmarks (1-5)
-* ~~Drystone.riscv~~
-* ~~Qsort.riscv~~
+* CoreMark
 * Linpack benchmark ➔ floating point
 * Livermore benchmark ➔ parallel computers
 * Whetstone benchmark ➔ floating point
