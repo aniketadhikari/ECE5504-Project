@@ -43,21 +43,21 @@ Study at least 5 different parameters in the configuration and find a methodolog
 ## Evaluation Platform
 - RISC-V BOOM core
 ## Evaluation Benchmarks (1-5)
-* Median 
+* [Median](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/median/median_main.c)
   * This benchmark performs a 1D three element median filter
-* Dhrystone 
+* [Dhrystone](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/dhrystone/dhrystone_main.c)
   * This is the classic Dhrystone synthetic integer benchmark.
-* Multi-threaded Matrix Multiply benchmark (mt-matmul) 
+* [Multi-threaded Matrix Multiply benchmark (mt-matmul)](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/mt-matmul/mt-matmul.c) 
   * This benchmark multiplies two 2-D arrays together and writes the results to a third vector
-* QSort 
+* [QSort](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/qsort/qsort_main.c)
   * This benchmark uses quicksort to sort an array of integers.
-* RSort 
+* [RSort](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/rsort/rsort.c)
   * Similar to QSort, except it does the reverse, meaning it sorts from greatest to least 
-* Towers of Hanoi (towers_main) 
+* [Towers of Hanoi (towers_main)](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/towers/towers_main.c)
   * Towers of Hanoi is a classic puzzle problem. The game consists of three pegs and a set of discs. Each disc is a different size, and initially all of the discs are on the left most peg with the smallest disc on top and the largest disc on the bottom. The goal is to move all of the discs onto the right most peg. The catch is that you are only allowed to move one disc at a time and you can never place a larger disc on top of a smaller disc.
-* Vector-vector Add Benchmark (vvadd_main) 
+* [Vector-vector Add Benchmark (vvadd_main)](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/vvadd/vvadd_main.c)
   * This benchmark uses adds to vectors and writes the results to a third vector.
-* Memcpy 
+* [Memcpy](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/memcpy/memcpy_main.c)
   * This benchmark tests the memcpy implementation
 ## Location and Meaning of Config Files 
 Rocket Config:
