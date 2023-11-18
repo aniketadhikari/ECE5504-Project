@@ -16,24 +16,49 @@ computer architecture design
 In this type of project, you work with existing implementations, however, you want to optimize the architecture configuration for your application.
 ## Parameters Available for Manipulation ( > 5)
 Study at least 5 different parameters in the configuration and find a methodology to find the optimal design for your application.
-1. `Param1`
-2. `Param2`
-3. `Param3`
-4. `Param4`
-5. `Param5`
+1. decodeWidth
+2. numIntPhysRegisters
+3. fetchWidth
+4. numRobEntries
+5. numIntPhysRegisters
+6. numFpPhysRegisters
+7. numLdqEntries
+8. numStqEntries
+9. maxBrCount
+10. numFetchBufferEntries
+11. nPerfCounters
+12. FtqParameters
+13. DCacheParams
+    - nSets
+    - nWays
+    - nMSHRs
+    - nTLBWays
+15. ICacheParams
+    - nSets
+    - nWays
+    - fetchBytes
 ## Evaluation Metrics (1-2)
 * CPI
 * Cache hit rate 
 ## Evaluation Platform
 - RISC-V BOOM core
 ## Evaluation Benchmarks (1-5)
-* CoreMark
-* Linpack benchmark ➔ floating point
-* Livermore benchmark ➔ parallel computers
-* Whetstone benchmark ➔ floating point
-* High-performance Linpack (HPL) ➔ solves a (random) dense linear system in double precision (64 bits) arithmetic on distributed-memory computers
-* SparseBench ➔ machine performance on typical sparse operations
-* multiplication.riscv
+* Median 
+  * This benchmark performs a 1D three element median filter
+* Dhrystone 
+  * This is the classic Dhrystone synthetic integer benchmark.
+* Multi-threaded Matrix Multiply benchmark (mt-matmul) 
+  * This benchmark multiplies two 2-D arrays together and writes the results to a third vector
+* QSort 
+  * This benchmark uses quicksort to sort an array of integers.
+* RSort 
+  * Similar to QSort, except it does the reverse, meaning it sorts from greatest to least 
+* Towers of Hanoi (towers_main) 
+  * Towers of Hanoi is a classic puzzle problem. The game consists of three pegs and a set of discs. Each disc is a different size, and initially all of the discs are on the left most peg with the smallest disc on top and the largest disc on the bottom. The goal is to move all of the discs onto the right most peg. The catch is that you are only allowed to move one disc at a time and you can never place a larger disc on top of a smaller disc.
+* Vector-vector Add Benchmark (vvadd_main) 
+  * This benchmark uses adds to vectors and writes the results to a third vector.
+* Memcpy 
+  * This benchmark tests the memcpy implementation
 ## Location and Meaning of Config Files 
 Rocket Config:
 ```
