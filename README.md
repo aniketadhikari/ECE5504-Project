@@ -16,7 +16,7 @@ computer architecture design
 In this type of project, you work with existing implementations, however, you want to optimize the architecture configuration for your application.
 ## Parameters Available for Manipulation ( > 5)
 Study at least 5 different parameters in the configuration and find a methodology to find the optimal design for your application.
-1. decodeWidth
+1. decodeWidth (WithNSmallBooms = 1, WithNMediumBooms = 2, WithNLargeBooms = 3)
 2. numIntPhysRegisters
 3. fetchWidth
 4. numRobEntries
@@ -37,6 +37,12 @@ Study at least 5 different parameters in the configuration and find a methodolog
     - nSets
     - nWays
     - fetchBytes
+16. Branch Prediction Technique
+    - None
+    - TAGE
+    - SW
+    - GShare
+    - Alpha
 ## Evaluation Metrics (1-2)
 * CPI
 * Cache hit rate 
