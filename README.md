@@ -53,8 +53,6 @@ Study at least 5 different parameters in the configuration and find a methodolog
   * This benchmark performs a 1D three element median filter
 * [Dhrystone](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/dhrystone/dhrystone_main.c)
   * This is the classic Dhrystone synthetic integer benchmark.
-* [Multi-threaded Matrix Multiply benchmark (mt-matmul)](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/mt-matmul/mt-matmul.c) 
-  * This benchmark multiplies two 2-D arrays together and writes the results to a third vector
 * [QSort](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/qsort/qsort_main.c)
   * This benchmark uses quicksort to sort an array of integers.
 * [RSort](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/rsort/rsort.c)
@@ -65,6 +63,8 @@ Study at least 5 different parameters in the configuration and find a methodolog
   * This benchmark uses adds to vectors and writes the results to a third vector.
 * [Memcpy](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/memcpy/memcpy_main.c)
   * This benchmark tests the memcpy implementation
+* [Sparse Matrix-Vector Multiplication](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/spmv)
+    * 
 ## Location and Meaning of Config Files 
 Rocket Config:
 ```
