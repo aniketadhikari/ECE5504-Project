@@ -44,8 +44,8 @@ Study at least 5 different parameters in the configuration and find a methodolog
     - GShare
     - Alpha
 ## Evaluation Metrics (1-2)
-* CPI
-* Cache hit rate 
+* Cycles Per Instruction (CPI)
+* Instructions Per Cycle (IPC)
 ## Evaluation Platform
 - RISC-V BOOM core
 ## Evaluation Benchmarks (1-5)
