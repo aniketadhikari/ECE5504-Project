@@ -94,4 +94,39 @@ class ECE5504AlphaPredSmallBoomConfig extends Config(
   new boom.common.WithSWBPD ++
   new boom.common.WithNBoomPerfCounters(11) ++
   new boom.common.WithNMediumBooms(1) ++
+  new chipyard.config.AbstractConfig) 
+
+class NoPredLargeBoomConfig extends Config(
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNLargeBooms(1) ++                          // small boom config
+  new chipyard.config.AbstractConfig)
+
+class SWPredLargeBoomConfig extends Config(
+  new boom.common.WithSWBPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNLargeBooms(1) ++                         
+  new chipyard.config.AbstractConfig)
+
+class TAGEPredLargeBoomConfig extends Config(
+  new boom.common.WithTAGELBPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNLargeBooms(1) ++                          
+  new chipyard.config.AbstractConfig)
+
+class GsharePredLargeBoomConfig extends Config(
+  new boom.common.WithBoom2BPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNLargeBooms(1) ++                         
+  new chipyard.config.AbstractConfig)
+
+class AlphaPredLargeBoomConfig extends Config(
+  new boom.common.WithAlpha21264BPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNLargeBooms(1) ++                         
+  new chipyard.config.AbstractConfig)
+
+class TAGEPredMegaBoomConfig extends Config(
+  new boom.common.WithTAGELBPD ++
+  new boom.common.WithNBoomPerfCounters(11) ++
+  new boom.common.WithNCS152DefaultBooms(1) ++                          
   new chipyard.config.AbstractConfig)
